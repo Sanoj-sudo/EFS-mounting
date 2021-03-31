@@ -30,7 +30,7 @@ Step 3: copy the DNS of EFS and paste
 
 Step 4: Give Permission to directory of EFS mounted.
 
-For Linux :
+For Amazon Linux :
 
 use same above steps except below command for nfs installation.
 
