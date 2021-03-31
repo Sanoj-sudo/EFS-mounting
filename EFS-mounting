@@ -1,0 +1,37 @@
+For Other Linux Distribution :
+Step 1.: update your System
+
+sudo yum -y update
+
+Step 2.: install nfs utils
+
+sudo yum -y install nfs-utils
+
+Step3.: Now make a directory or folder as you want
+
+mkdir efs
+
+Step 4.:Now go to EFS through AWS console and after that click on your EFS file System and click on attach and copy the DNS of EFS
+
+Step 5.:now paste the command or DNS
+Step 6.:After that give permission to mounted EFS directory according to your need.
+Step 7.:chmod 777 EFS
+
+For Ubuntu:
+
+Step 1. After update of OS  run below command
+sudo apt-get -y install nfs-common
+
+Step 2.make directory
+
+mkdir EFS
+
+Step 3: copy the DNS of EFS and paste
+
+Step 4: Give Permission to directory of EFS mounted.
+
+For Linux :
+
+use same above steps except below command for nfs installation.
+
+sudo yum install -y amazon-efs-utils
